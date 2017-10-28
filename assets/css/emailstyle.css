@@ -60,7 +60,7 @@ div {
 footer {
 	padding: 25px;
 	background-color: #666666;
-	margin-top: 100px;
+	margin-top: 115px;
 	border-top: 5px solid #4aaaa5;
 	clear: both;
 	color: #ffffff;
@@ -107,3 +107,14 @@ input.style_for_buttons{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+a {
+	text-decoration: none;
+}
+
+#links {
+	padding: 15px 15px 35px 15px;
+	border: 0px;
+	margin-left: 15px;
+}
+ 
