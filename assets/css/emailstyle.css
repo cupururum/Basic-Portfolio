@@ -1,0 +1,109 @@
+body {
+	background-image: url(/Users/macbook/Documents/Code/homework_1/Basic-Portfolio/assets/images/symphony.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+}
+
+header {
+	float: left;
+	margin-left: 130px;
+    padding: 20px;
+    clear: both;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+}
+
+section {
+    width: 940px;
+    height: 350px;
+	margin-left: 130px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+nav {
+	padding: 20px;
+	text-align: right;
+	margin-right: 175px;
+    border: 10px;
+    border-color: #cccccc;
+
+}
+
+aside
+ {
+ 	float: right;
+ 	width: 270px;
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    
+}
+
+article {
+	width: 650px;
+	padding-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+
+}
+
+div {
+
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+footer {
+	padding: 25px;
+	background-color: #666666;
+	margin-top: 100px;
+	border-top: 5px solid #4aaaa5;
+	clear: both;
+	color: #ffffff;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+h1 {
+	color: #4aaaa5;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+form {
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+input.small_windows {
+	width: 100%;
+	height: 20px;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+input.style_for_buttons{ 
+                          background-color: #4aaaa5;
+                          border: 1px solid #cccccc;
+                          padding: 10px 20px 10px 20px;
+                          color: #ffffff;
+                          font-size: 15px;
+
+ }
+
+#large_comment {
+	width: 100%;
+	padding-bottom: 110px;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
