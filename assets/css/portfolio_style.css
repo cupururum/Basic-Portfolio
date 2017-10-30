@@ -72,7 +72,7 @@ section {
 
 article {
 	width: 650px;
-	height: 350px;
+	height: 800px;
 	border: 1px solid #cccccc;
 	background-color: #ffffff;
 }
@@ -80,7 +80,7 @@ article {
 h1 {
 	color: #4aaaa5;
 	margin-left: 10px;
-	margin-right: 10px;;
+	margin-right: 10px;
 	border-bottom: 2px solid #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -92,19 +92,76 @@ As soon as in the portfolio.html I have position:relative/absolute
 for images inside of the <article>,
 the images were excluded from <article>'s' visual borders (I think so). */
 
-
-#image {
-	width: 200px;
-	height: 260px;
-	float: left;
-	margin-left: 5px;
-	margin-right: 5px;
+p {
+	width: 70px;
+	padding: 15px 15px 15px 15px;
+	background-color: #4aaaa5;
+	color: #ffffff;
 }
 
-p {
-	
-	margin-left: 10px;
-	margin-right: 10px;
+div.wrap_all_pic {
+	width: 650px;
+	margin-left: 25px;
+	position: relative;
+
+} 
+
+.cats{
+	width: 270px;
+	position: absolute;
+}
+
+p.image_cats {
+	position: relative;
+	bottom: 90px;
+}
+
+.nature {
+	width: 270px;
+	position: absolute;
+	right: 50px;
+	top: 0px;
+}
+
+p.image_nature {
+	position: relative;
+	bottom: 90px;
+}
+
+.city {
+	width: 270px;
+	position: absolute;
+	left: 0px;
+	top: 250px;
+}
+
+p.image_city {
+	position: relative;
+	bottom: 90px;
+}	
+
+.fashion {
+    width: 270px;
+	position: absolute;
+	right: 50px;
+	top: 250px;
+}
+
+p.image_fashion {
+	position: relative;
+	bottom: 90px;
+}	
+
+.nightlife {
+	width: 270px;
+	position: absolute;
+	left: 0px;
+	top: 500px;
+}
+
+p.image_nightlife {
+	position: relative;
+	bottom: 90px;
 }
 
 footer {
@@ -119,4 +176,3 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
